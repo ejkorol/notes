@@ -22,7 +22,7 @@ Use [Glow](https://github.com/charmbracelet/glow) with your favorite text editor
 `$ brew install glow`\
 `$ glow`
 
-![Terminal Gif](./assets/readme-terminal.gif)
+![Terminal Gif](./assets/local-navigation.gif)
 
 ---
 
