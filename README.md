@@ -15,7 +15,7 @@
 
 ## Navigating Locally?
 
-Use [Glow!](https://github.com/charmbracelet/glow) with your favorite text editor!
+Use [Glow](https://github.com/charmbracelet/glow) with your favorite text editor!
 
 `$ git clone git@github.com:ejkorol/notes.git`\
 `$ cd ./notes`\
