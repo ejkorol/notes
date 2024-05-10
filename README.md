@@ -3,7 +3,8 @@
 ## Table of Contents
 
 * [Javascript](#)
-    * [Document Object Model](./javascript/DOM/intro.md) 
+    * [Document Object Model](#) 
+        * [Introduction to DOM](./javascript/DOM/intro.md)
     * [Functions](#)
         * [Closures](./javascript/functions/closures.md)
 
