@@ -1,5 +1,9 @@
 # Notes
 
+🤓 Just a useful knowledge repo for reference
+🚀 Blazingly fast-to-navigate knowledge repo
+🥵 Spicy content inside
+
 ## Table of Contents
 
 * [Javascript](#)
