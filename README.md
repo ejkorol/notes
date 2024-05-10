@@ -7,6 +7,7 @@
 ## Table of Contents
 
 * [Javascript](#)
+    * [Debugging 101](./javascript/debugging-101.md)
     * [Document Object Model](#) 
         * [Introduction to DOM](./javascript/DOM/intro.md)
     * [Functions](#)
