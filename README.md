@@ -9,6 +9,7 @@
 ## Table of Contents
 
 * [Javascript](#)
+    * [Object Oriented Programming](./javascript/object-orient-programming.md)
     * [Debugging 101](./javascript/debugging-101.md)
     * [Document Object Model](#) 
         * [Introduction to DOM](./javascript/DOM/intro.md)
