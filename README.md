@@ -17,6 +17,8 @@
     * [Functions](#)
         * [Closures](./javascript/functions/closures.md)
         * [Callbacks and Events](./javascript/functions/callbacks.md)
+* [Networks](#)
+    * [Promises](./networks/promises.md)
 
 ## Navigating Locally?
 
