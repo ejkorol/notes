@@ -1,5 +1,7 @@
 # Quick Sort
 
+> An efficient, comparison-based, divide-and-conquer sorting algorithm.
+
 A widely used sorting algorithm known for it's efficiency, as well as its easy implementation.
 
 It falls under the category of comparison-based sorting, and follows a *divide and conquer* approach.
