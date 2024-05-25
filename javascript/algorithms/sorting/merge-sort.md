@@ -7,52 +7,44 @@ Merge sort is another example of a divide-and-conquer algorithm, it works by div
 ## Example
 
 ```
+const unsortedArr = [12, 23, 45, 54, 32, 1, 67, 43, 31, 5, 9];
+const sortedArr = mergeSort(unsortedArr);
+
 function mergeSort (arr) {
 
-    // Check length of arr, when the arr is too small, either 1 or 0, stop the recursion
+  if (arr.length <= 1) {
+    return arr;
+  };
 
-    if (arr.length <= 1) {
-        return arr;
-    };
+  const mid = Math.floor(arr.length / 2);
+  let subArr1 = arr.slice(0, mid);
+  let subArr2 = arr.slice(mid);
 
-    const mid = Math.floor(arr.length/2) // Get half of the array
-    const subArr1 = arr.slice(0, mid); // slice at mid
-    const subArr2 = arr.slice(mid) // after mid
-
-    // Pass into function to merge the arrays
-    return merge(mergeSort(subArr1), mergeSort(subArr2));
+  return merge(mergeSort(subArr1), mergeSort(subArr2));
 
 };
-```
-> Merge Sort Function
 
-```
-function merge (subArr1, subArr2) {
-    let result = [];
-    let i = 0;
-    let j = 0;
+function merge (arr1, arr2) {
 
-    while (i < subArr1.length && j < subArr2.length) {
-        if (subArr1[i] < subArr2[j]) {
-            results.push(subArr1[i]);
-            i++;
-        } else {
-            results.push(subArr2[j]);
-            j++;
-        };
+  let result = [];
+  let arr1Index = 0;
+  let arr2Index = 0;
+
+  while (arr1Index < arr1.length && arr2Index < arr2.length) {
+    if (arr1[arr1Index] < arr2[arr2Index]) {
+      result.push(arr1[arr1Index]);
+      arr1Index++;
+    } else {
+      result.push(arr2[arr2Index]);
+      arr2Index++;
     };
+  };
 
-    return [...result, ...subArr1.slice(i), ...subArr2.slice(j)];
+  return result.concat(arr1.slice(arr1Index)).concat(arr2.slice(arr2Index));
 };
-```
-> Merge the Arrays
 
+console.log(sortedArr);
 ```
-const unsortedArray = [38, 27, 43, 3, 9, 82, 10];
-const sortedArray = merge(unsortedArray);
-console.log(sortedArray);
-```
-> Example Usage
 
 ## How It Works
 
